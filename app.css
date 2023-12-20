@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+ -webkit-font-smoothing: antialiased;
+}
+
+button {
+ cursor: pointer;
+}
+
+#about{
+  position: fixed;
+    top: 10px; 
+    right: 10px; 
+    text-decoration: none;
+    color: #333; 
+    font-weight: bold;
+}
+
+#about:hover{
+  color:  rgb(255,215,0);
+}
+
+#FEEDME { /* Bouton de lancement du jeu*/
+  padding: 5px;
+  color:rgb(102, 0, 0);
+  background-color: rgb(255,215,0);
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+}
+  /*Classe de la div qui représente les croquettes*/
+  .catfood {
+    cursor: pointer;
+    height: 100px;
+    width: 170px;  
+    background-image: url('./Assets/croquettes.png');
+    background-size: cover;
+  }
+  /*Classe de la div qui repésente la patte de chat */
+  .paw {
+      width: 550px;
+      position: absolute;
+      background-size: 550px 120vh;
+      background-repeat: no-repeat;
+      bottom: 0;
+      background-image: url('./Assets/paw.png');
+      pointer-events: none;
+    }
+    
+  h1 {
+      color: red;
+  }
+

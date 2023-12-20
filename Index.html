@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app.css" type="text/css">
+    <link rel="icon" type="image/x-icon" href="./Assets/favicon.ico">
+
+    <title>Paw</title>
+</head>
+
+<body>
+    <button id="FEEDME">FEEDME</button>
+    <div id="score"></div>
+    <a id="about" href="about.html">about</a>
+
+    <div class="container">
+        <div id="divContainer"></div>
+        <div class="paw" id="paw"></div>
+        <div class="pawbase"></div>
+    </div>
+
+    <script type="text/javascript" src="./classes/catfood.js"></script>
+    <script type="text/javascript" src="./classes/paw.js"></script>
+    <script type="text/javascript" src="./classes/main.js"></script>
+
+    <script>
+    var scoreState = 0;
+    
+    document.addEventListener('DOMContentLoaded', function() {
+    // Attachez un gestionnaire d'événement au clic sur le bouton
+    document.getElementById('FEEDME').addEventListener('click', function() {
+    // Instantiate classes
+    const paw = new Paw();
+    // creer une liste de catfoods
+    // à chaque timer creer un nouveau catfood
+    // que l'on ajoute aux catfoods
+    //const catFood = new CatFood();
+    const main = new Main();
+     // Masquer le bouton une fois que le script est généré
+     document.getElementById('FEEDME').style.display = 'none';
+     document.getElementById('about').style.display = 'none';  
+
+    });
+
+
+});
+</script>
+</body>
+
+</html>
