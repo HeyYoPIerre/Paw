@@ -32,7 +32,7 @@ class Main{
     
      // Créer une image aléatoire
      var imageAleatoire = document.createElement('img');
-     var cheminDossierImages = 'Assets/images';
+     var cheminDossierImages = 'assets/images';
      var images = ['IMG_0105.jpg', 'IMG_0435.jpg', 'IMG_0491.jpg', 'IMG_0628.jpg', 'IMG_0667.jpg'];
      var imageAleatoireIndex = Math.floor(Math.random() * images.length);
      imageAleatoire.src = cheminDossierImages + '/' + images[imageAleatoireIndex];
