@@ -41,6 +41,7 @@ button {
 
 body {
   display: flex;
+  background-image: url('./assets/tengyart-fq6L_4_z3sA-unsplash (1).jpg');
 }
   /*Classe de la div qui représente les croquettes*/
   .catfood {
