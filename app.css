@@ -50,7 +50,7 @@ body {
     height: 100px;
     width: 170px;  
     background-image: url('./assets/croquettes.png');
-    background-image: cover;
+    background-size: cover;
   }
   /*Classe de la div qui repésente la patte de chat */
   .paw {
